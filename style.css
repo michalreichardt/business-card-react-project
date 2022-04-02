@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    background-color: #1A1B21;
+    color: #FFF;
+    max-width: 317px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about--image{
+    border-radius: 10px 10px 0 0;
+    width: 317px;
+    height: 317px;
+    object-fit: cover;
+    object-position: 20.5%;
+}
+
+.about--texts--wrapper{
+    margin: 0 2.125rem;
+    text-align: center;
+}
+.about--name{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    margin: 0.7rem 0 0.2rem;
+
+    
+}
+.about--position{
+    font-size: 0.8rem;
+    margin: 0.1rem 0 0.6rem;
+    color: #F3BF99;
+}
+.about--webside{
+    font-size: 0.64rem;
+    margin: 0.6rem 0 1.3rem;
+
+}
+
+.about--button--wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.6rem;
+}
+.about--button{
+    width: 8.2em;
+    height: 2.4em;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    line-height: 1rem;
+    
+    
+}
+.about--button-email{
+    padding: 0 10px 0 5px;
+}
+
+
+.about--button-linkedin{
+    background-color: #5093E2;
+    color: #FFF;
+    padding: 0 10px 0 5px;
+
+}
+section{
+    margin: 0 2.125rem;
+    
+}
+
+h2{
+    margin: 0;
+    color: #F5F5F5;
+    font-size: 1rem;
+    line-height: 1.5em;
+    font-weight: 700;
+    margin-top: 0px;
+    
+}
+
+section > p{
+    margin: 0 0 1rem;
+    color: #DCDCDC;
+    font-size: 0.64rem;
+    line-height: 1.5em;
+}
+
+footer{
+    height: 4rem;
+    padding: 1rem 2rem;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+
+}
+
+/* limited hover area - I would expect hoover to work on the whole image, yet it works only in the top part - why? */
+
+a > img{
+    display: block;
+    width: 25px;
+    height: 25px;
+}
